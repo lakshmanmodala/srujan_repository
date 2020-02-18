@@ -20,6 +20,7 @@ public class HealthCareServiceImpl  implements HealthCareService {
 		return dao.getCentres();
 	}
 
+		//
 		@Override
 		public boolean removeDiagnosticCentre(String centreId) throws ValidateException, DiagnosticException {
 			if(validateCentreId(centreId))
